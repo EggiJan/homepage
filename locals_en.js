@@ -10,7 +10,7 @@ module.exports = {
     contact: 'Contact',
     profile: 'Profile',
     cv: 'Education & Work',
-    projects: 'Project',
+    projects: 'Projects',
     visitPage: 'Visit Website'
   },
   education: [
@@ -56,9 +56,8 @@ module.exports = {
     }
   ],
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
-  languages: ['Deutsch - Native', 'Englisch - Good'],
+  languages: ['German - Native', 'English - Good'],
   contact: {
     email: 'jan.mue19@gmail.com',
-
   }
 }
