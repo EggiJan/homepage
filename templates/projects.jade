@@ -1,0 +1,20 @@
+section#section-projects.content.hidden
+  .headline.uppercase #{locals.headlines.projects}
+  hr
+  for project in locals.projects
+    .project
+      .description-headline #{project.name}
+      .project-description
+        .project-image
+          .image-overlay
+            a(href="#{project.url}", target="_blank")
+              span #{locals.headlines.visitPage}
+              span.fa.fa-angle-right
+          img(src="#{project.img}")
+        .description-text 
+          p #{project.description}
+          .tags
+            for tag in project.keywords
+              .tag #{tag}
+      hr
+  

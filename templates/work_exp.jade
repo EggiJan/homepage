@@ -1,0 +1,14 @@
+.work_exp.resume-section
+  h4 #{locals.headlines.workExperience}
+  .separator-small
+  for item, index in locals.work_experience
+    - var len = locals.work_experience.length
+    .education-item
+      .time-range #{item.timeRange}
+      .title #{item.title}
+      .subtitle #{item.subtitle}
+      .tags
+        for tag in item.keywords
+          .tag #{tag}
+      if index < len -1
+        hr

@@ -1,0 +1,11 @@
+.education.resume-section
+  h4 #{locals.headlines.education}
+  .separator-small
+  for item, index in locals.education
+    - var len = locals.education.length
+    .education-item
+      .time-range #{item.timeRange}
+      .title #{item.title}
+      .subtitle #{item.subtitle}
+      if index < len -1
+        hr
