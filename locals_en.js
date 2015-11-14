@@ -44,14 +44,14 @@ module.exports = {
     {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
-      img: '../public/img/podcatcher.png',
+      img: '/img/podcatcher.png',
       description: 'Podcatcher.de is a small web application that allws you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrstructure to fetch the podcasts from RSS-Feeds. The frontend is based on Angular.js.',
       keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
     },
     {
       name: 'RC Freunde Teltow (Work in Progress)',
       url: 'https://github.com/gotschmarcel/rcft-hackathon',
-      img: '../public/img/rcft.png',
+      img: '/img/rcft.png',
       description: 'Simple CMS/Blog for the RC Freunde Teltow Club to manage their news, events and gallery.',
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
     }
