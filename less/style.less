@@ -19,6 +19,13 @@
   -o-box-shadow: @shadow;
 }
 
+.transition(@trans) {
+  transition: @trans;
+  -webkit-transition: @trans;
+  -moz-transition: @trans;
+  -o-transition: @trans;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -27,6 +34,7 @@ html, body {
 
 body {
   background-color: #F3F3F3;
+  text-rendering: optimizeLegibility;
 }
 
 @headlineSize: 3rem;
@@ -145,10 +153,7 @@ nav {
   font-size: @normalFontSize;
   color: #CECECE;
   display: block;
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
+  .transition(all 0.25s ease);
 }
 
 nav a:hover, nav a:active, nav a:focus {
@@ -243,10 +248,7 @@ nav a:hover {
     a {
       margin-right: 0.5rem;
       color: @fontColor;
-      -webkit-transition: color 0.5s ease;
-      -moz-transition: color 0.5s ease;
-      -ms-transition: color 0.5s ease;
-      transition: color 0.5s ease;
+      .transition(color 0.5s ease);
 
       &:hover {
         color: @baseColor;
@@ -343,7 +345,7 @@ nav a:hover {
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: opacity 0.5s ease;
+    .transition(opacity 0.75s ease);
 
     a {
       color: white;

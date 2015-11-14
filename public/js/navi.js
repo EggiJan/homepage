@@ -8,12 +8,15 @@ function bindNavEvents() {
       if(clickedItem.hasClass('active')) {
         return;
       } else {
+
+        // Switch nav state
         $('nav .active').removeClass('active')
         clickedItem.addClass('active')
-        $('section.content.active-section').removeClass('active-section').addClass('hidden')
-        selectedSection.addClass('active-section').removeClass('hidden')
-      }
 
+        // Switch content
+        $('section.content.active-section').fadeTo('slow', 0).removeClass('active-section').addClass('hidden')
+        selectedSection.addClass('active-section').fadeTo('slow', 1).removeClass('hidden')
+      }
     })
   })
 }
