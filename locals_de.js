@@ -2,7 +2,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'Medientechnologie Student und Web Developer',
-    coverText: 'Neben meinem Studium der Medientechnologie, das ich Mitte 2016 mit dem Master Of Science (M. Sc.) abschließen werde, entwickle ich privat mit Freunden und Kommilitonen sowie bei meiner Tätigkeit als Werkstudent kleine Web-Applikationen. Bei der Entwicklung beteilige ich mich sowohl im Backend mit Node.js/Express und MongoDB, als auch im Frontend mit klassischem HTML/CSS und Frameworks, wie Angular.js.',
+    coverText: '\"Was macht dieser Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese kleine Website gebaut. Alle relevanten Informationen über mich sind hier zu finden. Viel Spaß beim Umsehen!',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -17,7 +17,8 @@ module.exports = {
     {
       timeRange: '12/2014 - heute',
       title: 'Technische Universität Ilmenau',
-      subtitle: 'Master of Science (M.Sc.), Medientechnologie'
+      subtitle: 'Master of Science (M.Sc.), Medientechnologie',
+      subsubtitle: 'Voraussichtlicher Abschluss: Mitte 2016'
     },
     {
       timeRange: '10/2010 - 12/2014',

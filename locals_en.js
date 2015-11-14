@@ -2,7 +2,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'Student of Media Technology and Web Developer',
-    coverText: 'I will finish my studies in Media Technology in Mid-2016 with a Master of Science (M. Sc.) degree. In my spare time I develop small web applications with friends and fellow students. In the development I participate in both the backend with Node.js/Express and MongoDB, als well as in the frontend with classic HTML/CSS and frameworks like Angular.js.',
+    coverText: 'To give you an impression of what I am doing day to day, I created this website. When I am not busy with finishing my studies, I spend my time working on small web projects with friends and fellow students. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -17,7 +17,8 @@ module.exports = {
     {
       timeRange: '12/2014 - present',
       title: 'Technische Universität Ilmenau',
-      subtitle: 'Master of Science (M.Sc.), Media Technology'
+      subtitle: 'Master of Science (M.Sc.), Media Technology',
+      subsubtitle: 'Expected graduation in June 2016'
     },
     {
       timeRange: '10/2010 - 12/2014',

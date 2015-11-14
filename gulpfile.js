@@ -14,8 +14,8 @@ gulp.task('less', function() {
     .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('watch', ['less', 'templates'], function() {
-  return gulp.watch(['./less/*.less', './templates/*.jade', './locals.js'],['templates' ,'less'])
+gulp.task('watch', ['less', 'templates', 'templates_en'], function() {
+  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', 'locals_de.js'],['templates' ,'less'])
 })
 
 gulp.task('templates', function() {
