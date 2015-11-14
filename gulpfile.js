@@ -6,6 +6,8 @@ var rename = require('gulp-rename');
 var deLocals = require('./locals_de');
 var enLocals = require('./locals_en')
 
+var vHost = '/var/www/virtual/mueljn/muellerjan.de';
+
 gulp.task('default', ['less', 'templates', 'templates_en'], function() {});
 
 gulp.task('less', function() {
@@ -15,7 +17,7 @@ gulp.task('less', function() {
 });
 
 gulp.task('watch', ['less', 'templates', 'templates_en'], function() {
-  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', 'locals_de.js'],['templates' ,'less'])
+  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', 'locals_de.js'],['templates', 'templates_en' ,'less'])
 })
 
 gulp.task('templates', function() {
@@ -31,6 +33,6 @@ gulp.task('templates_en', function() {
     .pipe(jade({
       locals: enLocals
     }))
-    .pipe(rename('index_en.html'))
-    .pipe(gulp.dest('./public/'))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('./public/en/'))
 });

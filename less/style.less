@@ -5,6 +5,8 @@
 @darkMixedColor: mix(@fontColor, @baseColor, 85%);
 @lightMixedColor: mix(@alternateFontColor, @baseColor, 50%);
 
+@imagePath: "/img/me_pic.jpg";
+
 .filter(@func) {
   -webkit-filter: @func;
   -moz-filter: @func;
@@ -179,7 +181,7 @@ nav a:hover {
 }
 
 .profile-pic {
-  background-image: url(../img/me_pic.jpg);
+  background-image: url(@imagePath);
   height: 100%;
   background-size: cover;
   background-position-y: 25%;
@@ -187,7 +189,7 @@ nav a:hover {
 }
 
 .profile-pic-rounded {
-  background-image: url(../img/me_pic.jpg);
+  background-image: url(@imagePath);
   height: 250px;
   width: 250px;
   margin: 20px;
