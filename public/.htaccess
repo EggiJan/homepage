@@ -1,0 +1,12 @@
+RewriteEngine on
+#The 'Accept-Language' header starts with 'de'
+#and the test is case-insensitive ([NC])
+
+RewriteCond %{HTTP:Accept-Language} ^de [NC]
+
+#Redirect user to /de/ address
+#sending 301 (Moved Permanently) HTTP status code
+RewriteRule ^$ /de [L,R=301]
+
+#For every other language (including English) use English
+RewriteRule ^$ /en [L,R=301]
