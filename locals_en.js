@@ -11,7 +11,9 @@ module.exports = {
     profile: 'Profile',
     cv: 'Education & Work',
     projects: 'Projects',
-    visitPage: 'Visit Website'
+    visitPage: 'Visit Website',
+    alternateLangIcon: '/img/de.png',
+    alternateLangLink: '/de/'
   },
   education: [
     {

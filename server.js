@@ -9,5 +9,5 @@ app.use(express.static(__dirname + '/public'));
 var server = app.listen(PORT, HOST, function () {
   var host = server.address().address;
   var port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Server listening at http://%s:%s', host, port);
 });

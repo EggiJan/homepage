@@ -244,6 +244,7 @@ nav a:hover {
   }
 
   .social {
+    display: flex;
     order: 2;
     margin-bottom: 2rem;
 
@@ -428,6 +429,20 @@ nav a:hover {
   }
 }
 
+#langSelect {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  margin-left: 20px;
+
+  img {
+    height: 40px;
+  }
+}
+
+
+/* Big screens */
 @media (min-width: 992px) {
 
   .profile-pic-rounded {
@@ -475,6 +490,7 @@ nav a:hover {
     }
 
     .social {
+      display: flex;
       text-align: right;
       order: 0;
       width: 30%;
@@ -494,6 +510,18 @@ nav a:hover {
       .description-text {
         padding-left: 1rem;
       }
+    }
+  }
+
+  #langSelect {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    margin-left: 20px;
+
+    img {
+      height: 40px;
     }
   }
 
