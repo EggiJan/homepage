@@ -47,7 +47,7 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
-      description: 'Podcatcher.de is a small web application that allws you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrstructure to fetch the podcasts from RSS-Feeds. The frontend is based on Angular.js.',
+      description: 'Podcatcher.de is a small web application that allws you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
       keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
     },
     {
@@ -61,6 +61,6 @@ module.exports = {
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
   languages: ['German - Native', 'English - Good'],
   contact: {
-    email: 'jan.mue19@gmail.com',
+    email: 'hallo@muellerjan.de',
   }
 }
