@@ -54,7 +54,7 @@ module.exports = {
       name: 'RC Freunde Teltow (Work in Progress)',
       url: 'https://github.com/gotschmarcel/rcft-hackathon',
       img: '/img/rcft.png',
-      description: 'Simples Content Management System für den RC-Freunde zum Verwalten von Blog, Terminen, Events und Bildern',
+      description: 'Simples Content Management System für den RC Freunde Teltow e.V. zum Verwalten von Blog, Terminen, Events und Bildern',
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
     }
   ],

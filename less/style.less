@@ -100,7 +100,7 @@ body {
 .page-right {
   background-color: @alternateFontColor;
 
-  .box-shadow(0px 1px 1px 1px #D0D0D0);
+  .box-shadow(0px 1px 5px 2px #D0D0D0);
 
 
   main {
@@ -129,7 +129,7 @@ body {
 .page-left {
   display: flex;
   flex-direction: column;
-  .box-shadow(0px 1px 1px 1px #D0D0D0);
+  .box-shadow(0px 1px 5px 2px #D0D0D0);
 }
 
 nav {
@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 .profile-bg {
-  background-color: #B7B7B7;
+  background-color: #f3f3f3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,7 +196,8 @@ nav a:hover {
   background-position: 50% 13%;
   background-size: 150%;
   border-radius: 50%;
-  border: 2px solid @fontColor;
+  // border: 2px solid @fontColor;
+  .filter(drop-shadow(0px 0px 2px @darkMixedColor))
 }
 
 .content {
