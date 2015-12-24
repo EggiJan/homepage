@@ -2,7 +2,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'Medientechnologie Student und Web Developer',
-    coverText: '\"Was macht Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese kleine Website gebaut. Alle relevanten Informationen über mich sind hier zu finden. Viel Spaß beim Umsehen!',
+    coverText: '\"Was macht Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese Website erstellt. Relevante Informationen über mich sind hier zu finden. Viel Spaß beim Umsehen!',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -47,7 +47,7 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
-      description: 'Web-App zum Abbonieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis.',
+      description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis.',
       keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
     },
     {
