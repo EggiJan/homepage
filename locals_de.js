@@ -61,7 +61,7 @@ module.exports = {
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
   languages: ['Deutsch - Muttersprache', 'Englisch - Gut'],
   contact: {
-    email: 'hallo@muellerjan.de',
-
-  }
+    email: 'hallo@muellerjan.de'
+  },
+  analytics: true
 }

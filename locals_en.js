@@ -62,5 +62,6 @@ module.exports = {
   languages: ['German - Native', 'English - Good'],
   contact: {
     email: 'hallo@muellerjan.de',
-  }
+  },
+  analytics: true
 }

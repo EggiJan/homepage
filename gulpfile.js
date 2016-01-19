@@ -16,7 +16,7 @@ gulp.task('less', function() {
 });
 
 gulp.task('watch', ['less', 'templates_de', 'templates_en'], function() {
-  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', 'locals_de.js'],['templates_de', 'templates_en' ,'less'])
+  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', './locals_de.js'],['templates_de', 'templates_en' ,'less'])
 })
 
 gulp.task('templates_de', function() {
