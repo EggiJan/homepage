@@ -63,5 +63,5 @@ module.exports = {
   contact: {
     email: 'hallo@muellerjan.de'
   },
-  analytics: true
+  analytics: false
 }
