@@ -1,4 +1,5 @@
 module.exports = {
+  lang: "en",
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'Student of Media Technology and Web Developer',
@@ -52,10 +53,17 @@ module.exports = {
     },
     {
       name: 'RC Freunde Teltow (Work in Progress)',
-      url: 'https://github.com/gotschmarcel/rcft-hackathon',
+      url: 'https://rcft.gts.octans.uberspace.de',
       img: '/img/rcft.png',
-      description: 'Simple CMS/Blog for the RC Freunde Teltow Club to manage their news, events and gallery.',
+      description: 'Simple CMS/Blog for the RC Freunde Teltow Club to manage their news, events and gallery. My work includes the development of the CMS-Backoffice using Angular.js.',
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
+    },
+    {
+      name: 'Faircut.net',
+      url: 'http://www.faircut.net',
+      img: '/img/faircut.png',
+      description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
+      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],

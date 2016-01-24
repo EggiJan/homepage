@@ -278,6 +278,10 @@ nav a:hover {
 
 .headline {
   font-size: @headlineSize;
+
+  h2 {
+    font-weight: inherit;
+  }
 }
 
 .education, .work_exp {
@@ -380,6 +384,7 @@ nav a:hover {
 
       .project-image {
           width: 100%;
+          height: 100%;
           position: relative;
           margin-bottom: 1rem;
 
@@ -503,6 +508,9 @@ nav a:hover {
     .project-description {
       flex-direction: row;
 
+      .project-image {
+        height: 100%;
+      }
       .project-image,
       .description-text {
         width: 50%;

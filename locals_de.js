@@ -1,4 +1,5 @@
 module.exports = {
+  lang: "de",
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'Medientechnologie Student und Web Developer',
@@ -52,10 +53,17 @@ module.exports = {
     },
     {
       name: 'RC Freunde Teltow (Work in Progress)',
-      url: 'https://github.com/gotschmarcel/rcft-hackathon',
+      url: 'https://rcft.gts.octans.uberspace.de',
       img: '/img/rcft.png',
-      description: 'Simples Content Management System für den RC Freunde Teltow e.V. zum Verwalten von Blog, Terminen, Events und Bildern',
+      description: 'Simples Content Management System für den RC Freunde Teltow e.V. zum Verwalten von Blog, Terminen, Events und Bildern. Meine Arbeit beinhaltet die Weiterentwicklung des CMS-Backoffice auf Basis von Angular.js',
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
+    },
+    {
+      name: 'Faircut.net',
+      url: 'http://www.faircut.net',
+      img: '/img/faircut.png',
+      description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung, Konzeption gemeinsam mit dem Kunden und Umsetzung neuer Features beteiligt.',
+      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
