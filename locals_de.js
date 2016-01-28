@@ -62,7 +62,7 @@ module.exports = {
       name: 'Faircut.net',
       url: 'http://www.faircut.net',
       img: '/img/faircut.png',
-      description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung, Konzeption gemeinsam mit dem Kunden und Umsetzung neuer Features beteiligt.',
+      description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
