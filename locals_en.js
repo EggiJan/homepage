@@ -21,7 +21,7 @@ module.exports = {
       timeRange: '12/2014 - present',
       title: 'Technische Universität Ilmenau',
       subtitle: 'Master of Science (M.Sc.), Media Technology',
-      subsubtitle: 'Expected graduation in Oktober 2016'
+      subsubtitle: 'Expected graduation in October 2016'
     },
     {
       timeRange: '10/2010 - 12/2014',

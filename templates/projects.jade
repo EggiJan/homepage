@@ -7,11 +7,12 @@ section#section-projects.content.hidden
       .description-headline #{project.name}
       .project-description
         .project-image
-          .image-overlay
-            a(href="#{project.url}", target="_blank")
-              span #{locals.headlines.visitPage}
-              span.fa.fa-angle-right
-          img(src="#{project.img}" alt="Link to #{project.name}")
+          .project-image-container
+            .image-overlay
+              a(href="#{project.url}", target="_blank")
+                span #{locals.headlines.visitPage}
+                span.fa.fa-angle-right
+            img(src="#{project.img}" alt="Link to #{project.name}")
         .description-text 
           p #{project.description}
           .tags

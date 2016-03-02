@@ -1,16 +1,17 @@
-.col-md-3.no-padding.page-left
-  .profile-bg
-    .profile-pic-rounded
-  nav
-    .nav-item
-      a.active(href='javascript:void(0)', data-section='section-me')
-        span.hidden-xs.nav-text #{locals.headlines.profile}
-        span.fa.fa-user
-    .nav-item
-      a(href='javascript:void(0)', data-section='section-resume')
-        span.hidden-xs.nav-text #{locals.headlines.cv}
-        span.fa.fa-book
-    .nav-item
-      a(href='javascript:void(0)', data-section='section-projects')
-        span.hidden-xs.nav-text #{locals.headlines.projects}
-        span.fa.fa-code
+.no-padding.page-left
+  .shadow
+    .profile-bg
+      .profile-pic-rounded
+    nav
+      .nav-item
+        a.active(href='javascript:void(0)', data-section='section-me')
+          span.hidden-mobile.nav-text #{locals.headlines.profile}
+          span.fa.fa-user
+      .nav-item
+        a(href='javascript:void(0)', data-section='section-resume')
+          span.hidden-mobile.nav-text #{locals.headlines.cv}
+          span.fa.fa-book
+      .nav-item
+        a(href='javascript:void(0)', data-section='section-projects')
+          span.hidden-mobile.nav-text #{locals.headlines.projects}
+          span.fa.fa-code
