@@ -21,7 +21,7 @@ module.exports = {
       timeRange: '12/2014 - present',
       title: 'Technische Universität Ilmenau',
       subtitle: 'Master of Science (M.Sc.), Media Technology',
-      subsubtitle: 'Expected graduation in June 2016'
+      subsubtitle: 'Expected graduation in Oktober 2016'
     },
     {
       timeRange: '10/2010 - 12/2014',
@@ -48,7 +48,7 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
-      description: 'Podcatcher.de is a small web application that allws you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
+      description: 'Podcatcher.de is a small web application that allows you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
       keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
     },
     {
