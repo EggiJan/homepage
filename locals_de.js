@@ -110,5 +110,5 @@ module.exports = {
   contact: {
     email: 'hallo@muellerjan.de'
   },
-  analytics: false
+  analytics: true
 }
