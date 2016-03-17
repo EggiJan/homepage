@@ -9,7 +9,7 @@ section#section-projects.content.hidden
         .project-image
           .project-image-container
             .image-overlay
-              a(href="#{project.url}", target="_blank")
+              a(href="#{project.url}", target="_blank" title="#{project.name}")
                 span #{locals.headlines.visitPage}
                 span.fa.fa-angle-right
             img(src="#{project.img}" alt="Link to #{project.name}")
