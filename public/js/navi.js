@@ -1,5 +1,5 @@
 function bindNavEvents() {
-  $('nav a').each(function() {
+  $('a.nav-link').each(function() {
     $(this).on('click', function() {
       var sectionId = $(this).data('section')
       var selectedSection = $('#' + sectionId)
@@ -10,7 +10,7 @@ function bindNavEvents() {
       } else {
 
         // Switch nav state
-        $('nav .active').removeClass('active')
+        $('.nav-link.active').removeClass('active')
         clickedItem.addClass('active')
 
         // Switch content

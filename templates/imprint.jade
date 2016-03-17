@@ -1,0 +1,28 @@
+section#section-imprint.content.hidden
+  .headline.uppercase
+    h2 #{locals.footer.imprint.linkLabel}
+  hr
+  .imprint-legal-disclosure
+    | #{locals.footer.imprint.legalDisclosure.headline}
+    .separator-small
+    .legal-disclosure-contact
+      p 
+      | #{locals.footer.imprint.legalDisclosure.contact.name}
+      br
+      | #{locals.footer.imprint.legalDisclosure.contact.address}
+      br
+      | #{locals.footer.imprint.legalDisclosure.contact.zip} #{locals.footer.imprint.legalDisclosure.contact.town}
+  .imprint-contact
+    h3 #{locals.footer.imprint.contact.headline}
+    .separator-small
+    span.contact-label E-Mail
+    span.contact-value #{locals.contact.email}
+  .imprint-disclaimer
+    h3 #{locals.footer.imprint.disclaimer.headline}
+    .separator-small
+    h4 #{locals.footer.imprint.disclaimer.accountabilityContent.headline}
+    p #{locals.footer.imprint.disclaimer.accountabilityContent.content}
+    h4 #{locals.footer.imprint.disclaimer.accountabilityLinks.headline}
+    p #{locals.footer.imprint.disclaimer.accountabilityLinks.content}
+    h4 #{locals.footer.imprint.disclaimer.copyright.headline}
+    p #{locals.footer.imprint.disclaimer.copyright.content}

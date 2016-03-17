@@ -1,0 +1,10 @@
+section#section-privacy.content.hidden
+  .headline.uppercase
+    h2 #{locals.footer.privacy.linkLabel}
+  hr
+  .privacy-piwik
+  h4 #{locals.footer.privacy.piwik.headline}
+  .separator-small
+  p #{locals.footer.privacy.piwik.content}
+  iframe(style="border: 0; height: 200px; width: 600px;" src="http://piwik.muellerjan.de/index.php?module=CoreAdminHome&action=optOut&language=#{locals.lang}")
+  
