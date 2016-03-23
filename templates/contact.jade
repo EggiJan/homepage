@@ -2,4 +2,8 @@
   h4 #{locals.headlines.contact}
   .separator-small
   span.fa.fa-envelope-o
-  a(href="mailto:#{locals.contact.email}", target="_blank") #{locals.contact.email}
+  - mailAddr = 'mailto:' + locals.contact.email.name + '@' + locals.contact.email.domain
+  a(href="hallo [at] muellerjan.de", onclick="this.href='#{mailAddr}'")
+    | #{locals.contact.email.name}
+    | [at]
+    | #{locals.contact.email.domain}

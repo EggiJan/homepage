@@ -108,7 +108,10 @@ module.exports = {
     }
   },
   contact: {
-    email: 'hallo@muellerjan.de'
+    email: {
+      name: 'hallo',
+      domain: 'muellerjan.de'
+    }
   },
   analytics: true,
   cookieMessage: 'Diese Website verwendet Cookies. Wenn Sie die Website weiter nutzen, stimmen Sie der Verwendung von Cookies zu.'
