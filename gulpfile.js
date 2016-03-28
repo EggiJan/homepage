@@ -39,7 +39,7 @@ gulp.task('concat_js', function() {
 });
 
 gulp.task('watch', ['templates_de', 'templates_en' ,'less', 'minify-css', 'compress'], function() {
-  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', './locals_de.js'],['templates_de', 'templates_en' ,'less', 'minify-css','concat_js', 'compress'])
+  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', './locals_de.js'],['templates_de', 'templates_en' ,'less', 'minify-css','compress'])
 })
 
 gulp.task('templates_de', function() {
