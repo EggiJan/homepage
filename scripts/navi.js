@@ -1,26 +1,46 @@
-function bindNavEvents() {
-  $('a.nav-link').each(function() {
-    $(this).on('click', function() {
-      var sectionId = $(this).data('section')
-      var selectedSection = $('#' + sectionId)
-      var clickedItem = $(this)
+function show(route) {
+  var sectionId = '#section-' + route;
+  var linkId = '#link-' + route;
 
-      if(clickedItem.hasClass('active')) {
-        return;
-      } else {
+  var activatedlink = $(linkId);
+  var activatedSection = $(sectionId);
 
-        // Switch nav state
-        $('.nav-link.active').removeClass('active')
-        clickedItem.addClass('active')
+  if(activatedlink.hasClass('active')) {
+      return;
+  } else {
+    // Switch nav state
+    $('.nav-link.active').removeClass('active');
+    activatedlink.addClass('active');
 
-        // Switch content
-        $('section.content.active-section').fadeTo('slow', 0).removeClass('active-section').addClass('hidden')
-        selectedSection.addClass('active-section').fadeTo('slow', 1).removeClass('hidden')
-      }
-    })
-  })
+    // Switch section
+    $('section.content.active-section').fadeTo('fast', 0).removeClass('active-section').addClass('hidden');
+    activatedSection.addClass('active-section').fadeTo('fast', 1).removeClass('hidden')
+  }
+}
+
+function bindRouter() {
+  routie({
+    '': function() {
+      show('me')
+    },
+    'me': function() {
+      show('me')
+    },
+    'resume': function() {
+      show('resume')
+    },
+    'projects': function() {
+      show('projects')
+    },
+    'imprint': function() {
+      show('imprint')
+    },
+    'privacy': function() {
+      show('privacy')
+    },
+  });
 }
 
 $(document).ready(function() {
-  bindNavEvents.call(this);
-})
+  bindRouter.call(this);
+});
