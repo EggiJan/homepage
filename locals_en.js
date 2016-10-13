@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'Student of Media Technology and Web Developer',
-    coverText: 'To give you an impression of what I am doing day to day, I created this website. When I am not busy with finishing my studies, I spend my time working on small web projects with friends and fellow students. Feel free to click around!',
+    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and will start my job as a Fullstack Engineer at K.lab Educmedia GmbH in Berlin this November. You can find all side-projects I did with fellow students and friends during my studies and at my part-time job in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -18,10 +18,9 @@ module.exports = {
   },
   education: [
     {
-      timeRange: '12/2014 - present',
+      timeRange: '12/2014 - 09/2016',
       title: 'Technische Universität Ilmenau',
-      subtitle: 'Master of Science (M.Sc.), Media Technology',
-      subsubtitle: 'Expected graduation in October 2016'
+      subtitle: 'Master of Science (M.Sc.), Media Technology'
     },
     {
       timeRange: '10/2010 - 12/2014',
@@ -31,7 +30,7 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '6/2014 - present',
+      timeRange: '6/2014 - 10/2016',
       title: 'ilmCon GmbH, Ilmenau',
       subtitle: 'Working student in Web Development',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
@@ -59,8 +58,8 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
     },
     {
-      name: 'Faircut.net',
-      url: 'http://www.faircut.net',
+      name: 'Faircut.net (permanently closed)',
+      url: 'javascript:void(0)',
       img: '/img/faircut.png',
       description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
@@ -75,9 +74,9 @@ module.exports = {
         headline: 'Information in accordance with section 5 TMG',
         contact: {
           name: 'Jan Müller',
-          address: 'Geschwister-Scholl-Straße 1a',
-          zip: '98693',
-          town: 'Ilmenau'
+          address: 'Grünberger Straße 68',
+          zip: '10245',
+          town: 'Berlin'
         }
       },
       contact: {

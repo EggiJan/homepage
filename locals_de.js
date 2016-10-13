@@ -18,10 +18,9 @@ module.exports = {
   },
   education: [
     {
-      timeRange: '12/2014 - heute',
+      timeRange: '12/2014 - 09/2016',
       title: 'Technische Universität Ilmenau',
-      subtitle: 'Master of Science (M.Sc.), Medientechnologie',
-      subsubtitle: 'Voraussichtlicher Abschluss: Oktober 2016'
+      subtitle: 'Master of Science (M.Sc.), Medientechnologie'
     },
     {
       timeRange: '10/2010 - 12/2014',
@@ -31,7 +30,7 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '6/2014 - heute',
+      timeRange: '6/2014 - 10/2016',
       title: 'ilmCon GmbH, Ilmenau',
       subtitle: 'Werkstudent Web Entwicklung',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
@@ -59,7 +58,7 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
     },
     {
-      name: 'Faircut.net',
+      name: 'Faircut.net (eingestellt)',
       url: 'http://www.faircut.net',
       img: '/img/faircut.png',
       description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
