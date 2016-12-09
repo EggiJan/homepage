@@ -2,8 +2,8 @@ module.exports = {
   lang: "de",
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
-    profileSubtitle: 'Medientechnologie Student und Web Developer',
-    coverText: '\"Was macht Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese Website erstellt. Relevante Informationen über mich sind hier zu finden. Viel Spaß beim Umsehen!',
+    profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
+    coverText: '\"Was macht Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese Website erstellt. Im September habe ich mein Studium abgeschlossen und arbeite seit November als FullStack Engineer bei K.lab Educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -30,14 +30,23 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '6/2014 - 10/2016',
+      timeRange: '11/2016 - heute',
+      title: 'K.lab Educmedia GmbH, Berlin',
+      subtitle: 'FullStack Engineer',
+      link: 'http://klab-berlin.com',
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js']
+    },
+    {
+      timeRange: '6/2014 - 01/2017',
       title: 'ilmCon GmbH, Ilmenau',
       subtitle: 'Werkstudent Web Entwicklung',
+      link: 'http://ilmcon.de',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
     },
     {
       timeRange: '4/2013 - 9/2013',
       title: 'ePages GmbH, Jena',
+      link: 'http://epages.com',
       subtitle: 'R&D Frontend - Praktikant User Interface Design / Web Design',
       keywords: ['HTML', 'CSS', 'Agile/Scrum']
     }
@@ -59,7 +68,6 @@ module.exports = {
     },
     {
       name: 'Faircut.net (eingestellt)',
-      url: 'http://www.faircut.net',
       img: '/img/faircut.png',
       description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
@@ -74,9 +82,9 @@ module.exports = {
         headline: 'Angaben gemäß § 5 TMG',
         contact: {
           name: 'Jan Müller',
-          address: 'Geschwister-Scholl-Straße 1a',
-          zip: '98693',
-          town: 'Ilmenau'
+          address: 'Grünberger Straße 68',
+          zip: '10245',
+          town: 'Berlin'
         }
       },
       contact: {

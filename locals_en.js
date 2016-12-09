@@ -2,8 +2,8 @@ module.exports = {
   lang: "en",
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
-    profileSubtitle: 'Student of Media Technology and Web Developer',
-    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and will start my job as a Fullstack Engineer at K.lab Educmedia GmbH in Berlin this November. You can find all side-projects I did with fellow students and friends during my studies and at my part-time job in the projects section. Feel free to click around!',
+    profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
+    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab Educmedia GmbH in Berlin this November. You can find all side-projects I did with fellow students and friends during my studies and at my part-time job in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -30,14 +30,23 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '6/2014 - 10/2016',
+      timeRange: '11/2016 - present',
+      title: 'K.lab Educmedia GmbH, Berlin',
+      subtitle: 'FullStack Engineer',
+      link: 'http://klab-berlin.com',
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js']
+    },
+    {
+      timeRange: '6/2014 - 01/2017',
       title: 'ilmCon GmbH, Ilmenau',
+      link: 'http://ilmcon.de',
       subtitle: 'Working student in Web Development',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
     },
     {
       timeRange: '4/2013 - 9/2013',
       title: 'ePages GmbH, Jena',
+      link: 'http://epages.com',
       subtitle: 'R&D Frontend - Intern in User Interface Design / Web Design',
       keywords: ['HTML', 'CSS', 'Agile/Scrum']
     }
@@ -59,7 +68,6 @@ module.exports = {
     },
     {
       name: 'Faircut.net (permanently closed)',
-      url: 'javascript:void(0)',
       img: '/img/faircut.png',
       description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']

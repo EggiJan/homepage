@@ -5,7 +5,11 @@
     - var len = locals.work_experience.length
     .education-item
       .time-range #{item.timeRange}
-      .title #{item.title}
+      if item.link
+        a.title(href="#{item.link}", target="_blank")
+           | #{item.title}
+      else
+        .title #{item.title}
       .subtitle #{item.subtitle}
       .tags
         for tag in item.keywords
