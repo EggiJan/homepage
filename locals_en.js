@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab Educmedia GmbH in Berlin this November. You can find all side-projects I did with fellow students and friends during my studies and at my part-time job in the projects section. Feel free to click around!',
+    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin in November 2016. All side-projects I have been working with fellow students and friends during my studies and at my part-time job are listed in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -31,7 +31,7 @@ module.exports = {
   work_experience: [
     {
       timeRange: '11/2016 - present',
-      title: 'K.lab Educmedia GmbH, Berlin',
+      title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js']

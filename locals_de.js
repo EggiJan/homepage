@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: '\"Was macht Jan eigentlich den ganzen Tag?\" - Um diese Frage zu beantworten, habe ich diese Website erstellt. Im September habe ich mein Studium abgeschlossen und arbeite seit November als FullStack Engineer bei K.lab Educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
+    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -31,7 +31,7 @@ module.exports = {
   work_experience: [
     {
       timeRange: '11/2016 - heute',
-      title: 'K.lab Educmedia GmbH, Berlin',
+      title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js']
@@ -39,7 +39,7 @@ module.exports = {
     {
       timeRange: '6/2014 - 01/2017',
       title: 'ilmCon GmbH, Ilmenau',
-      subtitle: 'Werkstudent Web Entwicklung',
+      subtitle: 'Werkstudent Web-Entwicklung',
       link: 'http://ilmcon.de',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
     },
