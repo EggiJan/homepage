@@ -37,14 +37,14 @@ module.exports = {
       keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js']
     },
     {
-      timeRange: '6/2014 - 01/2017',
+      timeRange: '06/2014 - 01/2017',
       title: 'ilmCon GmbH, Ilmenau',
       subtitle: 'Werkstudent Web-Entwicklung',
       link: 'http://ilmcon.de',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js/Express', 'MongoDB']
     },
     {
-      timeRange: '4/2013 - 9/2013',
+      timeRange: '04/2013 - 09/2013',
       title: 'ePages GmbH, Jena',
       link: 'http://epages.com',
       subtitle: 'R&D Frontend - Praktikant User Interface Design / Web Design',
