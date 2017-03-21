@@ -115,6 +115,7 @@ module.exports = {
     }
   },
   contact: {
+    text: 'Senden Sie eine E-Mail',
     email: {
       name: 'hallo',
       domain: 'muellerjan.de'
