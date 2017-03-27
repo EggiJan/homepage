@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
+    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
