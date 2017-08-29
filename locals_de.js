@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich während meines Studiums oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden. Viel Spaß beim Umsehen!',
+    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Angular.js', 'React']
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL']
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -56,8 +56,8 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
-      description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis.',
-      keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
+      description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis und Anbindung an iTunes Podcast-Verzeichnis.',
+      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
       name: 'RC Freunde Teltow (Work in Progress)',
@@ -73,7 +73,7 @@ module.exports = {
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
   languages: ['Deutsch - Muttersprache', 'Englisch - Gut'],
   footer: {
     imprint: {
@@ -115,7 +115,7 @@ module.exports = {
     }
   },
   contact: {
-    text: 'Senden Sie eine E-Mail',
+    text: 'Sende eine E-Mail',
     email: {
       name: 'hallo',
       domain: 'muellerjan.de'

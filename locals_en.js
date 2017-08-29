@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'To give you an impression of what I am doing day to day, I created this website. I recently finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin in November 2016. All side-projects I have been working on with fellow students and friends during my studies and at my part-time job are listed in the projects section. Feel free to click around!',
+    coverText: 'Last year I finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin in November 2016. You can find some side-projects I am working on with friends and was working on in my part-time job during my studies in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Angular.js', 'React']
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL']
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -56,8 +56,8 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
-      description: 'Podcatcher.de is a small web application that allows you to subscribe and listen to podcasts right in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
-      keywords: ['Angular.js', 'Node.js/Express', 'mySQL', 'rabbitMQ']
+      description: 'Podcatcher.de is a web application that allows you to subscribe and listen to podcasts in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
+      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
       name: 'RC Freunde Teltow (Work in Progress)',
@@ -73,7 +73,7 @@ module.exports = {
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js/Express', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
   languages: ['German - Native', 'English - Good'],
   footer: {
     imprint: {
