@@ -1,10 +1,11 @@
 script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js")  
 script(src='/js/muellerjan.min.js')
-script.
-    window.cookieconsent_options = {
-        message: '#{locals.cookieMessage}',
-        theme: 'light-bottom',
-        dismiss: 'OK',
-        link: '#privacy'
-    };
-script(src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js")
+if locals.analytics
+    script.
+        window.cookieconsent_options = {
+            message: '#{locals.cookieMessage}',
+            theme: 'light-bottom',
+            dismiss: 'OK',
+            link: '#privacy'
+        };
+    script(src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js")

@@ -121,6 +121,6 @@ module.exports = {
       domain: 'muellerjan.de'
     }
   },
-  analytics: true,
+  analytics: false,
   cookieMessage: 'This website uses cookies. By closing this message, you consent to our cookies on this device in accordance with our cookie policy unless you have disabled them.'
 }
