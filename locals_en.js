@@ -60,13 +60,6 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
-      name: 'RC Freunde Teltow (Work in Progress)',
-      url: 'https://rcft.gts.octans.uberspace.de',
-      img: '/img/rcft.png',
-      description: 'Simple CMS/Blog for the RC Freunde Teltow Club to manage their news, events and gallery. My work includes the development of the CMS-Backoffice using Angular.js.',
-      keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
-    },
-    {
       name: 'Faircut.net (permanently closed)',
       img: '/img/faircut.png',
       description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',

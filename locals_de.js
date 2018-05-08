@@ -60,13 +60,6 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
-      name: 'RC Freunde Teltow (Work in Progress)',
-      url: 'https://rcft.gts.octans.uberspace.de',
-      img: '/img/rcft.png',
-      description: 'Simples Content Management System für den RC Freunde Teltow e.V. zum Verwalten von Blog, Terminen, Events und Bildern. Meine Arbeit beinhaltet die Weiterentwicklung des CMS-Backoffice auf Basis von Angular.js',
-      keywords: ['Angular.js', 'Node.js/Express', 'MongoDB']
-    },
-    {
       name: 'Faircut.net (eingestellt)',
       img: '/img/faircut.png',
       description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
