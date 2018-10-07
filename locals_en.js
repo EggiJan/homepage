@@ -64,6 +64,13 @@ module.exports = {
       img: '/img/faircut.png',
       description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
+    },
+    {
+      name: 'MQTT Dashboard',
+      url: 'https://github.com/DirkHeinke/mqttDashboard',
+      img: '/img/mqtt.png',
+      description: 'Browser-based MQTT-Dashboard to connect to an MQTT Broker. The dashboard allows you to create different widgets to send or consume messages. The project does not use any frameworks and keeps all data in the localstorage of the browser.',
+      keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     }
   ],
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],

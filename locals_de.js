@@ -64,6 +64,13 @@ module.exports = {
       img: '/img/faircut.png',
       description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
+    },
+    {
+      name: 'MQTT Dashboard',
+      url: 'https://github.com/DirkHeinke/mqttDashboard',
+      img: '/img/mqtt.png',
+      description: 'Web-basiertes Dashboard für die Verbindung mit MQTT Brokern und das Senden und Empfangen von Nachrichten mittels Button, Text oder Message-Log Widgets. Außerdem ermöglicht es die Verwaltung mehrerer Dashboards und Verbindungen. Das Projekt kommt ohne Framework aus und hält Daten im LocalStorage.',
+      keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     }
   ],
   skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
