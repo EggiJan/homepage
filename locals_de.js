@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL']
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS']
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -73,7 +73,7 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'AWS', 'Docker', 'Scrum'],
   languages: ['Deutsch - Muttersprache', 'Englisch - Gut'],
   footer: {
     imprint: {

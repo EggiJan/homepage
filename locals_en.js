@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'Last year I finished my Masters in Media Technology at the Technical University in Ilmenau and started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin in November 2016. You can find some side-projects I am working on with friends and was working on in my part-time job during my studies in the projects section. Feel free to click around!',
+    coverText: 'After I finished my Masters in Media Technology at the Technical University in Ilmenau I started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin. There I\'m mostly doing FullStack Web Development paired with some DevOps things like maintaining the production infrastructure on AWS. You can find some side-projects I am working on with friends and was working on in my part-time job during my studies in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL']
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS'],
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -73,7 +73,7 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'AWS', 'Docker', 'Scrum'],
   languages: ['German - Native', 'English - Good'],
   footer: {
     imprint: {
