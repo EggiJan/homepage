@@ -59,10 +59,5 @@ build/Release
 node_modules
 
 # Built files
-style.css
-muellerjan.min.css
-muellerjan.js
-muellerjan.min.js
-index_en.html
-index.html
 /tmp
+/dist

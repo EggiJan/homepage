@@ -6,15 +6,20 @@ var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var clean = require('gulp-clean');
+var replace = require('gulp-replace');
+var filter = require('gulp-filter');
+var sequence = require('gulp-sequence');
+var fs = require('fs');
 
 var deLocals = require('./locals_de');
 var enLocals = require('./locals_en')
 
+gulp.task('default', sequence('clean', 'copy', 'templates_de', 'templates_en', 'compress', 'minify-css', 'replace'))
 
-gulp.task('default', ['templates_de', 'templates_en', 'compress', 'minify-css'], function() {
-  return gulp.src('./tmp/*')
+gulp.task('clean', function() {
+  return gulp.src(['dist/*', 'tmp/*'], { read: false })
     .pipe(clean())
-});
+})
 
 gulp.task('less', function() {
   return gulp.src('./less/*.less')
@@ -29,18 +34,45 @@ gulp.task('concat_js', function() {
 });
 
 gulp.task('minify-css', ['less'], function() {
+  var filename = 'muellerjan.min.' + Date.now() + '.css';
   return gulp.src('./tmp/style.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(rename('muellerjan.min.css'))
-    .pipe(gulp.dest('./public/css'));
+    .pipe(rename(filename))
+    .pipe(gulp.dest('./dist/css'))
 });
 
 gulp.task('compress', ['concat_js'], function() {
+  var filename = 'muellerjan.min.' + Date.now() + '.js';
   return gulp.src('./tmp/muellerjan.js')
     .pipe(uglify())
-    .pipe(rename('muellerjan.min.js'))
-    .pipe(gulp.dest('./public/js'));
+    .pipe(rename(filename))
+    .pipe(gulp.dest('./dist/js'))
 });
+
+gulp.task('replace', function () {
+  var cssFiles = fs.readdirSync('dist/css');
+  var jsFiles = fs.readdirSync('dist/js');
+
+  var deFilter = filter('**/*_de.html', { restore: true });
+  var enFilter = filter('**/*_en.html', { restore: true });
+  
+
+  return gulp.src(['tmp/index_de.html', 'tmp/index_en.html'])
+    .pipe(replace('$${cssFilename}', cssFiles[0]))
+    .pipe(replace('$${jsFilename}', jsFiles[0]))
+    .pipe(deFilter)
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('dist/de'))
+    .pipe(deFilter.restore)
+    .pipe(enFilter)
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('dist/en'))
+})
+
+gulp.task('copy', function() {
+  return gulp.src('public/img/**/*')
+    .pipe(gulp.dest('dist/img'))
+})
 
 gulp.task('watch', ['templates_de', 'templates_en' , 'minify-css', 'compress'], function() {
   return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', './locals_de.js'],['templates_de', 'templates_en' ,'minify-css','compress'])
@@ -51,7 +83,8 @@ gulp.task('templates_de', function() {
     .pipe(jade({
       locals: deLocals
     }))
-    .pipe(gulp.dest('./public/de'))
+    .pipe(rename('index_de.html'))
+    .pipe(gulp.dest('./tmp/'))
 });
 
 gulp.task('templates_en', function() {
@@ -59,6 +92,6 @@ gulp.task('templates_en', function() {
     .pipe(jade({
       locals: enLocals
     }))
-    .pipe(rename('index.html'))
-    .pipe(gulp.dest('./public/en/'))
+    .pipe(rename('index_en.html'))
+    .pipe(gulp.dest('./tmp/'))
 });
