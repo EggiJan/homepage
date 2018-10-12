@@ -70,8 +70,8 @@ gulp.task('replace', function () {
 })
 
 gulp.task('copy', function() {
-  return gulp.src('public/img/**/*')
-    .pipe(gulp.dest('dist/img'))
+  return gulp.src('public/**/*', { dot: true })
+    .pipe(gulp.dest('dist/'))
 })
 
 gulp.task('watch', ['templates_de', 'templates_en' , 'minify-css', 'compress'], function() {
