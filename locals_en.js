@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'After I finished my Masters in Media Technology at the Technical University in Ilmenau I started my job as a FullStack Engineer at K.lab educmedia GmbH in Berlin. There I\'m mostly doing FullStack Web Development paired with some DevOps things like maintaining the production infrastructure on AWS. You can find some side-projects I am working on with friends and was working on in my part-time job during my studies in the projects section. Feel free to click around!',
+    coverText: 'I\'m mostly working in FullStack Web Development paired with some DevOps like maintaining infrastructure on AWS. If you\'re interested in some side-projects I am working on with friends and was working on in my part-time job during my studies, you can find them in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS'],
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS', 'Serverless'],
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -60,20 +60,20 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
-      name: 'Faircut.net (permanently closed)',
-      img: '/img/faircut.png',
-      description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
-      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
-    },
-    {
       name: 'MQTT Dashboard',
       url: 'https://github.com/DirkHeinke/mqttDashboard',
       img: '/img/mqtt.png',
       description: 'Browser-based MQTT-Dashboard to connect to an MQTT Broker. The dashboard allows you to create different widgets to send or consume messages. The project does not use any frameworks and keeps all data in the localstorage of the browser.',
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
+    },
+    {
+      name: 'Faircut.net (permanently closed)',
+      img: '/img/faircut.png',
+      description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
+      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'AWS', 'Docker', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Git', 'Linux', 'AWS', 'Docker', 'Serverless', 'Scrum'],
   languages: ['German - Native', 'English - Good'],
   footer: {
     imprint: {

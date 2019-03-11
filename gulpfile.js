@@ -74,9 +74,7 @@ gulp.task('copy', function() {
     .pipe(gulp.dest('dist/'))
 })
 
-gulp.task('watch', ['templates_de', 'templates_en' , 'minify-css', 'compress'], function() {
-  return gulp.watch(['./less/*.less', './templates/*.jade', './locals_en.js', './locals_de.js'],['templates_de', 'templates_en' ,'minify-css','compress'])
-})
+
 
 gulp.task('templates_de', function() {
   gulp.src('./templates/index.jade')

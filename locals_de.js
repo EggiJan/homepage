@@ -3,7 +3,7 @@ module.exports = {
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
     profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
-    coverText: 'Im September 2016 habe ich mein Master-Studium der Medientechnologie an der TU Ilmenau abgeschlossen und arbeite seit November 2016 als FullStack Engineer bei der K.lab educmedia GmbH in Berlin. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
+    coverText: 'Aktuell arbeite ich primär im Bereich Fullstack Web Development kümmere mich aber auch um die Betreuung der Production Infrastruktur auf AWS. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',
@@ -34,7 +34,7 @@ module.exports = {
       title: 'K.lab educmedia GmbH, Berlin',
       subtitle: 'FullStack Engineer',
       link: 'http://klab-berlin.com',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS']
+      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS', 'Serverless']
     },
     {
       timeRange: '06/2014 - 01/2017',
@@ -60,20 +60,20 @@ module.exports = {
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
-      name: 'Faircut.net (eingestellt)',
-      img: '/img/faircut.png',
-      description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
-      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
-    },
-    {
       name: 'MQTT Dashboard',
       url: 'https://github.com/DirkHeinke/mqttDashboard',
       img: '/img/mqtt.png',
       description: 'Web-basiertes Dashboard für die Verbindung mit MQTT Brokern und das Senden und Empfangen von Nachrichten mittels Button, Text oder Message-Log Widgets. Außerdem ermöglicht es die Verwaltung mehrerer Dashboards und Verbindungen. Das Projekt kommt ohne Framework aus und hält Daten im LocalStorage.',
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
+    },
+    {
+      name: 'Faircut.net (eingestellt)',
+      img: '/img/faircut.png',
+      description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
+      keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
   ],
-  skills: ['HTML5', 'CSS3', 'LESS', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Jade', 'Git', 'Linux', 'Gulp', 'AWS', 'Docker', 'Scrum'],
+  skills: ['HTML5', 'CSS3', 'Node.js', 'JavaScript', 'MongoDB', 'Angular.js', 'React', 'Git', 'Linux', 'AWS', 'Docker', 'Serverless', 'Scrum'],
   languages: ['Deutsch - Muttersprache', 'Englisch - Gut'],
   footer: {
     imprint: {
