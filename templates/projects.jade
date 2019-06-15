@@ -13,7 +13,10 @@ section#section-projects.content.hidden
                 a(href="#{project.url}", target="_blank" title="#{project.name}")
                   span #{locals.headlines.visitPage}
                   span.fa.fa-angle-right
-            img(src="#{project.img}" alt="Link to #{project.name}")
+            picture
+              source(srcset="#{project.webp}" type="image/webp")
+              source(srcset="#{project.img}" type="image/png")
+              img(src="#{project.img}" alt="Link to #{project.name}")
         .description-text 
           p #{project.description}
           .tags

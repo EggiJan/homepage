@@ -56,6 +56,7 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
+      webp: '/img/podcatcher.webp',
       description: 'Podcatcher.de is a web application that allows you to subscribe and listen to podcasts in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
@@ -63,12 +64,14 @@ module.exports = {
       name: 'MQTT Dashboard',
       url: 'https://github.com/DirkHeinke/mqttDashboard',
       img: '/img/mqtt.png',
+      webp: '/img/mqtt.webp',
       description: 'Browser-based MQTT-Dashboard to connect to an MQTT Broker. The dashboard allows you to create different widgets to send or consume messages. The project does not use any frameworks and keeps all data in the localstorage of the browser.',
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
       name: 'Faircut.net (permanently closed)',
       img: '/img/faircut.png',
+      webp: '/img/faircut.webp',
       description: 'During my work at ilmCon GmbH I worked for the faircut.net platform where users can find and book London based haircuts. My work included planning and discussing new features with the client and the implementation of those features.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }

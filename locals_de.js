@@ -56,6 +56,7 @@ module.exports = {
       name: 'Podcatcher.de',
       url: 'http://podcatcher.de',
       img: '/img/podcatcher.png',
+      webp: '/img/podcatcher.webp',
       description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis und Anbindung an iTunes Podcast-Verzeichnis.',
       keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
@@ -63,12 +64,14 @@ module.exports = {
       name: 'MQTT Dashboard',
       url: 'https://github.com/DirkHeinke/mqttDashboard',
       img: '/img/mqtt.png',
+      webp: '/img/mqtt.webp',
       description: 'Web-basiertes Dashboard für die Verbindung mit MQTT Brokern und das Senden und Empfangen von Nachrichten mittels Button, Text oder Message-Log Widgets. Außerdem ermöglicht es die Verwaltung mehrerer Dashboards und Verbindungen. Das Projekt kommt ohne Framework aus und hält Daten im LocalStorage.',
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
       name: 'Faircut.net (eingestellt)',
       img: '/img/faircut.png',
+      webp: '/img/faircut.webp',
       description: 'Plattform zur Vermittlung von Haarschnitten in London. Während meiner Nebentätigkeit bei der ilmCon GmbH war ich für diese Plattform an der Planung und Konzeption neuer Features gemeinsam mit dem Kunden und deren Umsetzung beteiligt.',
       keywords: ['JavaScript', 'Jade', 'Node.js/Express', 'MongoDB']
     }
