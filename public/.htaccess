@@ -1,7 +1,12 @@
 RewriteEngine on
+
+## Rewrite to HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
 #The 'Accept-Language' header starts with 'de'
 #and the test is case-insensitive ([NC])
-
 RewriteCond %{HTTP:Accept-Language} ^de [NC]
 
 #Redirect user to /de/ address
