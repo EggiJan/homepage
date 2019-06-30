@@ -4,7 +4,7 @@ var app = express();
 var PORT = 8889;
 var HOST = 'localhost';
 
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/dist_new'));
 
 app.get('/', function(req, res) {
   res.redirect('/en')

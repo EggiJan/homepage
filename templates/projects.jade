@@ -1,8 +1,8 @@
 section#section-projects.content.hidden
   .headline.uppercase
-    h2 #{locals.headlines.projects}
+    h2 #{headlines.projects}
   hr
-  for project in locals.projects
+  for project in projects
     .project
       .description-headline #{project.name}
       .project-description
@@ -10,13 +10,13 @@ section#section-projects.content.hidden
           .project-image-container
             if project.url
               .image-overlay
-                a(href="#{project.url}", target="_blank" title="#{project.name}")
-                  span #{locals.headlines.visitPage}
+                a(href=`${project.url}`, target="_blank" title=`${project.name}`)
+                  span #{headlines.visitPage}
                   span.fa.fa-angle-right
             picture
-              source(srcset="#{project.webp}" type="image/webp")
-              source(srcset="#{project.img}" type="image/png")
-              img(src="#{project.img}" alt="Link to #{project.name}")
+              source(srcset=`${project.webp}` type="image/webp")
+              source(srcset=`${project.img}` type="image/png")
+              img(src=`${project.img}` alt=`Link to ${project.name}`)
         .description-text 
           p #{project.description}
           .tags

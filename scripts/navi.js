@@ -1,46 +1,51 @@
+const routie = require('routie-2');
+
 function show(route) {
-  var sectionId = '#section-' + route;
-  var linkId = '#link-' + route;
+  const sectionId = '#section-' + route;
+  const linkId = '#link-' + route;
 
-  var activatedlink = $(linkId);
-  var activatedSection = $(sectionId);
+  const activatedLink = document.querySelector(linkId);
+  const activatedSection = document.querySelector(sectionId);
 
-  if(activatedlink.hasClass('active')) {
-      return;
-  } else {
-    // Switch nav state
-    $('.nav-link.active').removeClass('active');
-    activatedlink.addClass('active');
-
-    // Switch section
-    $('section.content.active-section').fadeTo('fast', 0).removeClass('active-section').addClass('hidden');
-    activatedSection.addClass('active-section').fadeTo('fast', 1).removeClass('hidden')
+  if (activatedLink.classList.contains('active')) {
+    return;
   }
+
+  // Switch nav state
+  const currentActiveNavItem = document.querySelector('.nav-link.active');
+  currentActiveNavItem.classList.remove('active');
+  activatedLink.classList.add('active');
+
+  // Switch section
+  const activeSec = document.querySelector('section.content.active-section');
+  activeSec.classList.remove('active-section');
+  activeSec.classList.add('hidden');
+
+  activatedSection.classList.add('active-section');
+  activatedSection.classList.remove('hidden');
 }
 
 function bindRouter() {
   routie({
-    '': function() {
+    '': function () {
       show('me')
     },
-    'me': function() {
+    'me': function () {
       show('me')
     },
-    'resume': function() {
+    'resume': function () {
       show('resume')
     },
-    'projects': function() {
+    'projects': function () {
       show('projects')
     },
-    'imprint': function() {
+    'imprint': function () {
       show('imprint')
     },
-    'privacy': function() {
+    'privacy': function () {
       show('privacy')
     },
   });
 }
 
-$(document).ready(function() {
-  bindRouter.call(this);
-});
+module.exports = bindRouter;
