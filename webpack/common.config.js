@@ -2,13 +2,13 @@ const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const outPath = path.resolve(__dirname, '../dist');
 
 const config = {
   entry: {
     fonts: './fonts.js'
   },
   output: {
-    path: path.resolve(__dirname, 'dist_new'),
     filename: '[name].bundle.js',
   },
   devServer: {
@@ -26,8 +26,8 @@ const config = {
     }),
     new CopyWebpackPlugin([
       {
-        from: './public/img',
-        to: '../img'
+        from: './public',
+        to: outPath
       }
     ])
   ],

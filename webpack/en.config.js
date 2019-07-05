@@ -2,14 +2,15 @@ const webpack = require('webpack');
 const path = require('path');
 const commonConfig = require('./common.config');
 const merge = require('webpack-merge');
-const util = require('util');
+
+const outPath = path.resolve(__dirname, '../dist/en');
 
 const config = {
   entry: {
     app_en: './index.js'
   },
   output: {
-    path: path.resolve(__dirname, 'dist_new/en'),
+    path: outPath,
   },
   
   module: {

@@ -1,5 +1,4 @@
 function setEmail(element) {
-  console.log('setEmail', element);
   if (!element) {
     return;
   }
