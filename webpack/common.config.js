@@ -11,10 +11,6 @@ const config = {
   output: {
     filename: '[name].bundle.js',
   },
-  devServer: {
-    port: 3400,
-    publicPath: '/'
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './templates/index.jade',
