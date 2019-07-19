@@ -69,6 +69,14 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
+      name: 'SimpleMQTT for Slack',
+      url: 'https://simplemqtt.theoi.de',
+      img: '/img/simplemqtt.png',
+      webp: '/img/simplemqtt.webp',
+      description: 'Slack App that adds slash-commands to communicate with MQTT brokers. Slash-commands can be used to add brokers, targets and topics and sending messages.',
+      keywords: ['JavaScript', 'DynamoDB', 'AWS Lambda', 'Serverless', 'S3']
+    },
+    {
       name: 'Faircut.net (permanently closed)',
       img: '/img/faircut.png',
       webp: '/img/faircut.webp',
