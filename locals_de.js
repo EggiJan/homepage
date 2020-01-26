@@ -2,7 +2,7 @@ module.exports = {
   lang: "de",
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
-    profileSubtitle: 'FullStack Engineer @ K.lab Berlin',
+    profileSubtitle: 'Senior Engineer @ meinUnterricht',
     coverText: 'Aktuell arbeite ich primär im Bereich Fullstack Web Development kümmere mich aber auch um die Betreuung der Production Infrastruktur auf AWS. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
@@ -31,9 +31,9 @@ module.exports = {
   work_experience: [
     {
       timeRange: '11/2016 - heute',
-      title: 'K.lab educmedia GmbH, Berlin',
-      subtitle: 'FullStack Engineer',
-      link: 'http://klab-berlin.com',
+      title: 'meinUnterricht GmbH, Berlin',
+      subtitle: 'FullStack Engineer, Senior Engineer (seit 10/2019)',
+      link: 'https://meinunterricht.de',
       keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS', 'Serverless']
     },
     {
