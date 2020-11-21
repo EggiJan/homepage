@@ -53,12 +53,12 @@ module.exports = {
   ],
   projects: [
     {
-      name: 'Podcatcher.de',
-      url: 'http://podcatcher.de',
-      img: '/img/podcatcher.png',
-      webp: '/img/podcatcher.webp',
-      description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis und Anbindung an iTunes Podcast-Verzeichnis.',
-      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
+      name: 'SimpleMQTT für Slack',
+      url: 'https://simplemqtt.theoi.de',
+      img: '/img/simplemqtt.png',
+      webp: '/img/simplemqtt.webp',
+      description: 'Slack App zum Hinzufügen von Slash-Commands zur Kommunikation mit MQTT Brokern. Slash-Commands beinhalten das Speichern von Brokern, Targets und Topics sowie das Senden von Nachrichten.',
+      keywords: ['JavaScript', 'DynamoDB', 'AWS Lambda', 'Serverless', 'S3']
     },
     {
       name: 'MQTT Dashboard',
@@ -69,12 +69,11 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
-      name: 'SimpleMQTT für Slack',
-      url: 'https://simplemqtt.theoi.de',
-      img: '/img/simplemqtt.png',
-      webp: '/img/simplemqtt.webp',
-      description: 'Slack App zum Hinzufügen von Slash-Commands zur Kommunikation mit MQTT Brokern. Slash-Commands beinhalten das Speichern von Brokern, Targets und Topics sowie das Senden von Nachrichten.',
-      keywords: ['JavaScript', 'DynamoDB', 'AWS Lambda', 'Serverless', 'S3']
+      name: 'Podcatcher.de (eingstellt)',
+      img: '/img/podcatcher.png',
+      webp: '/img/podcatcher.webp',
+      description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis und Anbindung an iTunes Podcast-Verzeichnis.',
+      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
       name: 'Faircut.net (eingestellt)',

@@ -53,12 +53,12 @@ module.exports = {
   ],
   projects: [
     {
-      name: 'Podcatcher.de',
-      url: 'http://podcatcher.de',
-      img: '/img/podcatcher.png',
-      webp: '/img/podcatcher.webp',
-      description: 'Podcatcher.de is a web application that allows you to subscribe and listen to podcasts in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
-      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
+      name: 'SimpleMQTT for Slack',
+      url: 'https://simplemqtt.theoi.de',
+      img: '/img/simplemqtt.png',
+      webp: '/img/simplemqtt.webp',
+      description: 'Slack App that adds slash-commands to communicate with MQTT brokers. Slash-commands can be used to add brokers, targets and topics and sending messages.',
+      keywords: ['JavaScript', 'DynamoDB', 'AWS Lambda', 'Serverless', 'S3']
     },
     {
       name: 'MQTT Dashboard',
@@ -69,12 +69,11 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
-      name: 'SimpleMQTT for Slack',
-      url: 'https://simplemqtt.theoi.de',
-      img: '/img/simplemqtt.png',
-      webp: '/img/simplemqtt.webp',
-      description: 'Slack App that adds slash-commands to communicate with MQTT brokers. Slash-commands can be used to add brokers, targets and topics and sending messages.',
-      keywords: ['JavaScript', 'DynamoDB', 'AWS Lambda', 'Serverless', 'S3']
+      name: 'Podcatcher.de (permanently closed)',
+      img: '/img/podcatcher.png',
+      webp: '/img/podcatcher.webp',
+      description: 'Podcatcher.de is a web application that allows you to subscribe and listen to podcasts in your browser. We are using Node.js both for the backend, as well as for the crawler infrastructure to fetch podcasts from RSS-Feeds. The frontend is based on Angular.js.',
+      keywords: ['Angular.js', 'Node.js/Express', 'MySQL', 'rabbitMQ']
     },
     {
       name: 'Faircut.net (permanently closed)',
