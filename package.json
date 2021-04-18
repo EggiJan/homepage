@@ -6,31 +6,32 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build:prod": "npm run clean && npm run build:de && npm run build:en",
-    "build:de": "webpack -p --config webpack/de.config.js",
-    "build:en": "webpack -p --config webpack/en.config.js"
+    "build:de": "webpack --config webpack/de.config.js",
+    "build:en": "webpack --config webpack/en.config.js",
+    "server": "node server.js"
   },
   "author": "Jan Müller",
   "license": "NOLICENSE",
   "devDependencies": {
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^3.0.0",
     "express": "^4.17.1",
-    "html-webpack-plugin": "^3.2.0",
-    "less-loader": "^5.0.0",
-    "pug": "^2.0.4",
+    "html-webpack-plugin": "^5.3.1",
+    "less-loader": "^8.1.1",
+    "pug": "^3.0.2",
     "pug-static-loader": "^2.0.0",
     "source-loader": "^1.0.0",
-    "style-loader": "^0.23.1",
-    "url-loader": "^2.0.1",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-merge": "^4.2.2"
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-brands-svg-icons": "^5.9.0",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "less": "^3.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "less": "^4.1.1",
     "routie-2": "^1.0.0"
   }
 }
