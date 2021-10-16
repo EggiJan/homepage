@@ -2,7 +2,7 @@ module.exports = {
   lang: "de",
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
-    profileSubtitle: 'Senior Engineer @ meinUnterricht',
+    profileSubtitle: 'Senior Backend - Cloud Engineer @ Egoditor',
     coverText: 'Aktuell arbeite ich primär im Bereich Fullstack Web Development kümmere mich aber auch um die Betreuung der Production Infrastruktur auf AWS. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
@@ -30,11 +30,18 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '11/2016 - heute',
+      timeRange: '10/2021 - heute',
+      title: 'Egoditor GmbH, Remote',
+      subtitle: 'Senior Backend - Cloud Engineer',
+      link: 'https://www.egoditor.com',
+      keywords: ['AWS', 'Node.js', 'TypeScript']
+    },
+    {
+      timeRange: '11/2016 - 09/2021',
       title: 'meinUnterricht GmbH, Berlin',
       subtitle: 'FullStack Engineer, Senior Engineer (seit 10/2019)',
       link: 'https://meinunterricht.de',
-      keywords: ['HTML', 'CSS', 'JavaScript', 'Angular.js', 'React', 'Node.js', 'MongoDB', 'MySQL', 'Docker', 'AWS', 'Serverless']
+      keywords: ['AWS', 'Node.js', 'React', 'Angular.js', 'MongoDB', 'MySQL', 'Docker', 'Serverless']
     },
     {
       timeRange: '06/2014 - 01/2017',
