@@ -17,9 +17,9 @@ jobs:
         run: npm ci
       - name: Build package
         run: npm run build:prod
-      - uses: awact/s3-action@master
+      - uses: jakejarvis/s3-sync-action@master
         with:
-          args: --delete --cache-control max-age=604800
+          args: --cache-control max-age=604800 --delete
         env:
           SOURCE_DIR: './dist'
           AWS_REGION: 'eu-central-1'
