@@ -99,9 +99,9 @@ module.exports = {
         headline: 'Information in accordance with section 5 TMG',
         contact: {
           name: 'Jan Müller',
-          address: 'Grünberger Straße 68',
-          zip: '10245',
-          town: 'Berlin'
+          address: 'Am Palstek 6',
+          zip: '26122',
+          town: 'Oldenburg'
         }
       },
       contact: {
