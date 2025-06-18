@@ -30,10 +30,17 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '10/2021 - present',
-      title: 'Egoditor GmbH, Remote',
+      timeRange: '01/2023 - present',
+      title: 'Bitly Europe GmbH, Remote',
+      subtitle: 'Staff Engineer',
+      link: 'https://bitly.com',
+      keywords: ['TypeScript', 'Golang', 'React', 'AWS']
+    },
+    {
+      timeRange: '10/2021 - 12/2022',
+      title: 'Bitly Europe GmbH, Remote',
       subtitle: 'Senior Backend - Cloud Engineer',
-      link: 'https://www.egoditor.com',
+      link: 'https://bitly.com',
       keywords: ['AWS', 'Node.js', 'TypeScript']
     },
     {

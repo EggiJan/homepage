@@ -13,7 +13,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./templates/index.jade",
+      template: "./templates/index.pug",
       inject: "head",
     }),
     new webpack.ProvidePlugin({
@@ -32,7 +32,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jade/,
+        test: /\.pug/,
         loader: "source-loader",
       },
       {
