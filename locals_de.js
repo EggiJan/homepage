@@ -2,8 +2,8 @@ module.exports = {
   lang: "de",
   headlines: {
     profileTitle: 'Hallo, ich bin Jan Müller',
-    profileSubtitle: 'Senior Backend - Cloud Engineer @ Egoditor',
-    coverText: 'Aktuell arbeite ich primär im Bereich Fullstack Web Development kümmere mich aber auch um die Betreuung der Production Infrastruktur auf AWS. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite oder in meinem Nebenjob gearbeitet habe sind im Bereich Projekte zu finden.',
+    profileSubtitle: 'Staff Engineer @ Bitly',
+    coverText: 'Aktuell arbeite ich primär im Bereich Fullstack Web Development kümmere mich aber auch um die Betreuung der Production Infrastruktur auf AWS. Weitere Informationen zu Projekten, an denen ich in meiner Freizeit arbeite sind im Bereich Projekte zu finden.',
     skills: 'Fähigkeiten',
     education: 'Ausbildung',
     workExperience: 'Berufserfahrung',

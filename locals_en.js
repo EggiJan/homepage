@@ -2,8 +2,8 @@ module.exports = {
   lang: "en",
   headlines: {
     profileTitle: 'Hi, I am Jan Mueller',
-    profileSubtitle: 'Senior Backend - Cloud Engineer @ Egoditor',
-    coverText: 'I\'m mostly working in FullStack Web Development paired with some DevOps like maintaining infrastructure on AWS. If you\'re interested in some side-projects I am working on with friends and was working on in my part-time job during my studies, you can find them in the projects section. Feel free to click around!',
+    profileSubtitle: 'Staff Engineer @ Bitly',
+    coverText: 'I\'m mostly working in FullStack Web Development paired with some DevOps like maintaining infrastructure on AWS. If you\'re interested in some side-projects I am working on with friends, you can find them in the projects section. Feel free to click around!',
     skills: 'Skills',
     education: 'Education',
     workExperience: 'Work Experience',
