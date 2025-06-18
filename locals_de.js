@@ -30,10 +30,17 @@ module.exports = {
   ],
   work_experience: [
     {
-      timeRange: '10/2021 - heute',
-      title: 'Egoditor GmbH, Remote',
+      timeRange: '01/2023 - heute',
+      title: 'Bitly Europe GmbH, Remote',
+      subtitle: 'Staff Engineer',
+      link: 'https://bitly.com',
+      keywords: ['TypeScript', 'Golang', 'React', 'AWS']
+    },
+    {
+      timeRange: '10/2021 - 12/2022',
+      title: 'Bitly Europe GmbH, Remote',
       subtitle: 'Senior Backend - Cloud Engineer',
-      link: 'https://www.egoditor.com',
+      link: 'https://bitly.com',
       keywords: ['AWS', 'Node.js', 'TypeScript']
     },
     {
@@ -76,7 +83,7 @@ module.exports = {
       keywords: ['JavaScript', 'LocalStorage', 'mqtt']
     },
     {
-      name: 'Podcatcher.de (eingstellt)',
+      name: 'Podcatcher.de (eingestellt)',
       img: '/img/podcatcher.png',
       webp: '/img/podcatcher.webp',
       description: 'Web-App zum Abonnieren und Hören von Podcasts im Browser. Crawler Infrastrukur auf Node.js Basis und Anbindung an iTunes Podcast-Verzeichnis.',

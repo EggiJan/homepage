@@ -16,7 +16,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jade$/,
+        test: /\.pug$/,
         loader: "pug-static-loader",
         options: {
           pretty: false,
